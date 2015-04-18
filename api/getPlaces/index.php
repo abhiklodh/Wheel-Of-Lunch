@@ -51,7 +51,7 @@ class PlacesAPI {
 	
 	private function validatePlaceType($type) {
 	
-		$validPlaces = array('restaurant', 'food', 'bar');
+		$validPlaces = array('institutes', 'university', 'colleges', 'schools', '');
 		
 		if(!in_array($type, $validPlaces)) {
 			$type = $validPlaces[0];
